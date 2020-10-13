@@ -30,7 +30,7 @@
         <a class="mt-1 btn btn-outline-secondary" href="id.html">Ідентифікатори</a>
       </li>
       <li class="nav-item">
-        <a class="mt-1 btn btn-outline-secondary" href="indent.html">Відступи</a>
+        <a class="mt-1 btn btn-outline-secondary" href="vidstup.html">Відступи</a>
       </li>
       <li class="nav-item">
         <a class="mt-1 btn btn-outline-secondary" href="float.html">Плаваючі елементи</a>
@@ -44,11 +44,37 @@
     </ul><div class="mr-2 float-right" style="width: 75%; margin-top: -360px">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Постановка задачі лабораторної роботи 2</h5>
-              <br>
-            <P>
-               У лабораторній роботі 2 ми маємо на меті розглянути основи роботи з css. Ми повинні вивчити певні найуживаніші атрибути. Головна задача полягає в тому, щоб ознайомитися з видами селекторів та навчитися застосовувати їх на практиці.
-            </P>
+            <h5 class="card-title">Інші селектори</h5>
+            <img src="ind.jpg" width="950px"><br>
+            <pre><code>
+&lt;h1 class=&quot;head&quot;&gt;Список продукції&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Здобні булки&lt;/li&gt;
+  &lt;li&gt;Круасани&lt;/li&gt;
+  &lt;li&gt;Слойки&lt;/li&gt;
+  &lt;li&gt;Тістечка&lt;/li&gt;
+  &lt;li&gt;Торти&lt;/li&gt;
+  &lt;li&gt;Печиво&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Хліб&lt;/b&gt;&lt;i&gt;(звичайний та бездріжжджовий)&lt;/i&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+li>b{ /* дочірній */
+  color: maroon;
+}
+b+i{  /*сусідній */
+  color: blue;
+}
+p[name]{ /*атрибута */
+  text-indent: 25px;
+  font-family: Palatino;
+  font-size: 18px;
+}
+*{ /*універсальний */
+  font-family: URW Chancery L;
+}
+</code></pre>
+
           </div>
         </div>
     </div>
