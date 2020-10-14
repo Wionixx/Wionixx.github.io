@@ -60,7 +60,7 @@ a[href="https://www.google.com.ua/?hl=ru"] {
 .app-text > p {
   text-decoration: line-through;
 }
-h1 + p {color: black;}
+h1 + p {color: pink;}
 .app-picture{
   width: 50%;
   float: right;
