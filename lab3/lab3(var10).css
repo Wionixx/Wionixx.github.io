@@ -1,0 +1,50 @@
+*, html {
+    margin:0;
+    padding:0;
+}
+.header{
+    height: 88px;
+    background-color: blue;
+    border: solid 3px black;
+}
+.container {
+    width: 100%;
+    max-width: 900px;
+    height: 90px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.col-2 {
+    width: 23%;
+    height: 600px;
+    float: left;
+    background-color: yellow;
+    border: solid 3px black;
+}
+.col-3 {
+    width: 52%;
+    height: 600px;
+    float: left;
+    background-color: white;
+    border: solid 3px black;
+}
+.col-4 {
+    width: 23%;
+    height: 600px;
+    float: right;
+    background-color: yellow;
+    border: solid 3px black;
+}
+.footer{
+  width: 100%;
+  max-width: 896px;
+  height: 90px;
+  padding: 0;
+  margin: 31.7%;
+  position: absolute;
+  right: -102px;
+  background-color: blue;
+  border: solid 3px black;
+
+}
