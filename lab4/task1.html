@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab4style.css">
+</head>
+<body style="text-align:center;">
+    <p><strong>Масиви</strong></p>
+    <p>Введіть розмір масиву А</p>
+    <input type="text" name="size" id="size" value="1">
+    <button onclick="makeArray()">Click Here</button>
+    <p>Масив А:</p>
+    <p id="array1"></p>
+    <p>Максимальний елемент масиву А:</p>
+    <p id="max"></p>
+    <p>Новий масив В:</p>
+    <p id="array2"></p>
+    <p>Відсортований масив В:</p>
+    <p id="array_sorted"></p>
+</form>
+<body style="text-align:center;">
+    <div class="autocomplete" style="padding-top: 100px" >
+        <h1>Введiть назву кросівок</h1>
+        <input id="myInput" type="text" name="words" placeholder="Впишiть текст">
+    </div>
+<h1 style="text-align: center">Масиви
+</h1>
+<div class="center" style="justify-content: center; text-align: center;">
+
+
+<button  onclick="buttonPre()" id="result5">изначальный массив</button><br>
+<button style="margin-top: 20px" onclick="buttonPre()" id="result1">числа которые деляться на 2</button><br>
+<button style="margin-top: 20px" onclick="buttonPre()" id="result2">числа которые деляться на 2 и 3</button><br>
+<button style="margin-top: 20px" onclick="buttonPre()" id="result3">числа которые деляться на 3 </button><br>
+<button style="margin-top: 20px" onclick="quickSort()" id="result4">QuickSort</button>
+</div>
+    <div id="myLink" style="padding-top: 20px">Ссылка js</div>
+    <input type="button" style="margin-top: 20px" onclick="count()" value="Знижка до 60%">
+    <img style="width: 100%" src="${myimage}">
+    <script>
+        function count() {
+          for(let i=55; i < 60 ; i++) {
+            alert("Знижка  " + i+"%");
+            }
+        }
+        var myimage="45.jpg"
+    </script>
+
+    <script src="lab4js.js"></script>
+
+
+</body>
+</html>
