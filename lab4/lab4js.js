@@ -175,7 +175,7 @@ function buttonPre(){
     result5 = (items) + " - изначальный массив";
     document.getElementById("result5").innerHTML = result5;
 
-    // alert(loveTheThrees(items) + " - числа которые деляться на 2.  " + loveTheThrees2(items) + " - числа которые деляться на 2 и 3. " + loveTheThrees3(items) + " - числа которые деляться на 3.");
+
     result1 = loveTheThrees(items) + " - числа которые деляться на 2. " ;
     result2 = loveTheThrees2(items) + " - числа которые деляться на 2 и 3. ";
     result3 = loveTheThrees3(items) + " - числа которые деляться на 3.";
