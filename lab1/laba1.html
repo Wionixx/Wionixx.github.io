@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"> </script>
+  <link rel = "stylesheet" href = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"> </script>
   <title>laba</title>
 </head>
 <body>
@@ -13,9 +16,9 @@
       <ul>
         <li class="logo"><img src="telega.png"</img></li>
         <li class="active">Головна</li>
-        <li>Сервіс</li>
+        <li><a href="../lab6/dynamic.html" target="_blank">Сервіс</li>
         <li><a href="products.html" target="_blank">Продукти</a></li>
-        <li><a href="https://www.google.com.ua/?hl=ru" target="_blank">Контакти</a></li>
+        <li><a href="../lab6/knopki.html" target="_blank">Контакти</a></li>
         <li><a href="register.html" target="_blank" class="signup">Реєстрація</a></li>
       </ul>
     </div>
@@ -30,5 +33,25 @@
     </div>
   </div>
 
+<div>
+  <script>
+    $( function() {
+      var handle = $( "#custom-handle" );
+      $( "#slider" ).slider({
+        create: function() {
+          handle.text( $( this ).slider( "value" ) );
+        },
+        slide: function( event, ui ) {
+          handle.text( ui.value );
+        }
+      });
+    } );
+    </script>
+
+  <!-- Slider -->
+  <div id="slider">
+    <div id="custom-handle" class="ui-slider-handle"></div>
+  </div>
+</div>
 </body>
 </html>
