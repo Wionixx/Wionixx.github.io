@@ -24,6 +24,7 @@ html, body{
   margin: 0 20px;
   color: #b2b1b1;
   cursor: pointer;
+
 }
 a[href="https://www.google.com.ua/?hl=ru"] {
   color: yellow;
