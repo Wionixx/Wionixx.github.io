@@ -24,6 +24,7 @@ if ($_SESSION['user']) {
         <label>Пароль</label>
         <input type="password" name="password" placeholder="Введите пароль">
         <button type="submit" class="login-btn">Войти</button>
+        <button type="submit" name="login-btn"><a href="..\lab1\laba1.html">Войти на сайт</a></button>
         <p>
             У вас нет аккаунта? - <a href="register.php">зарегистрируйтесь</a>!
         </p>
